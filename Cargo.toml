@@ -6,4 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix = "0.13.3"
+actix-cors = "0.7.0"
+actix-files = "0.6.6"
+actix-web = "4.9.0"
+mongodb = "3.2.0"
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+serde = {version = "1.0", features = ["derive"]}
